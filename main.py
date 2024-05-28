@@ -36,7 +36,6 @@ from aiogram.types.message import ContentType
 # item_url = 'https://static.tildacdn.com/tild3036-6162-4562-b061-616365353430/photo_2023-10-29_23-.jpg'
 # item_url1 = 'https://static.tildacdn.com/tild6638-3531-4633-a532-386235366563/photo_2023-11-06_00-.jpg'
 # item_url1b = 'AgACAgIAAxkBAAITGGVIB98eWAP4AVfpReBwyrqxpVRnAAJ9zzEbJEVBSvV9mI0tWcDCAQADAgADeQADMwQ'
-# PAYMENTS_TOKEN = '390540012:LIVE:42172'
 # photer = 'AgACAgIAAxkBAAMsZeMti6PASGLii2xBrInzk1pKH5UAAlHfMRugxhhLXgyVwILawPcBAAMCAAN4AAM0BA'
 photer = 'AgACAgIAAxkBAAICMWXmBjGIb4Gw9zgni78gSOYC2EGPAALR2zEb6EEwSxhhPYX0F0DRAQADAgADeAADNAQ'
 pdf_file = 'BQACAgIAAxkBAAIRyWXwcKerUPs7NrsNQhW3-ZsjpY_IAAJ9SQACrPuAS4WORpxEnqQtNAQ'
@@ -54,8 +53,6 @@ dop_zad = -1
 # 5319695093
 video_privet = 'BAACAgIAAxkBAAIF-WXo3CpyP9Y4tyvkG_R26Y_wyS4vAAJsSAACTENISxcAAazhTYiDLTQE'
 admin_id = [5319695093, 5761067050]
-bot = Bot(token="7002923659:AAFidNCnaFq4leHNrqdjc6BdR-qrGSIKq5g")
-# bot = Bot(token="6976123023:AAF4jJRT5h89zfiUDNjjJyGJJ-YKSUj5sr4")
 dp = Dispatcher(bot, storage=MemoryStorage())
 logging.basicConfig(level=logging.INFO)
 button_1 = types.KeyboardButton(text="/start")
